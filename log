@@ -1,0 +1,5 @@
+** GET https://uat.signin.mycas.org.uk/CASServer/login?service=https%3A%2F%2Fuat.signin.mycas.org.uk%2Fidp%2FAuthn%2FRemoteUser&RelyingPartyId=https://uat.signinportal.mycas.org.uk/shibboleth&LACode=CAS ==> 200 OK
+** POST https://uat.signin.mycas.org.uk/CASServer/login;jsessionid=A161FA98A3CC70DC04D90FE358657DE0?service=https%3A%2F%2Fuat.signin.mycas.org.uk%2Fidp%2FAuthn%2FRemoteUser&amp;RelyingPartyId=https://uat.signinportal.mycas.org.uk/shibboleth&amp;LACode=CAS ==> 302 Found (1s)
+** GET https://uat.signin.mycas.org.uk/idp/Authn/RemoteUser?ticket=ST-82-sGBSafLtocCdPa0PjBxr-cas01.example.org ==> 302 Found
+** GET https://uat.signin.mycas.org.uk/idp/Authn/RemoteUser;jsessionid=2D61BC96823A5155ECCFE76E9841AE16 ==> 200 OK
+
